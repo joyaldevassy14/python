@@ -75,17 +75,17 @@ else:
         elif (player == "rock" and comp == "rock") or (player == "paper" and comp == "paper") or (player == "scisors" and comp == "scisors"):
             print("No points")
         elif player == 'q' :
-                print("{} quit the game {} wins ".format(name1,name2))
+                print("{} quit the game {} wins  \U0001f600".format(name1,name2))
                 f=1
                 break
         elif comp == 'q' :
-                print("{} quit the game {} wins ".format(name2,name1))
+                print("{} quit the game {} wins \U0001f600".format(name2,name1))
                 f=1
                 break
         elif ((player  not in choices) or (comp not in choices)):
             print("wrong choice")
         else:
-            print("{} got a point".format(name2))
+            print("{} got a point \U0001f600".format(name2))
             cp = cp+1
    
     print("\nscore board \n")
@@ -93,7 +93,7 @@ else:
     print("{} : {} \n{}: {} \n ".format(name1, pp,name2, cp))
     if f==0:
         if (cp > pp):
-            print("{} wins".format(name2))
+            print("{} wins \U0001f600".format(name2))
         elif (cp == pp):
             print("Draw")
         else:
