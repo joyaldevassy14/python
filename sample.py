@@ -4,5 +4,10 @@ for i in str:
     print(i)
 
 
-hello some messages added
+import random
+import time
+z=["hello","hai"]
+x=random.randint(1,6)
+y=random.choice(z)
+
 

@@ -1,0 +1,27 @@
+import os 
+path="file.txt"
+
+os.path.exists(path)   for checking path exists
+
+
+os.path.isfile       checkiing for is file
+
+
+os.path.isdir    checking is directory
+
+
+with open("filename","r") as file:
+    print(file.read())
+with open("filename","w") as file:   overwrite
+    file.write(text)
+with open("filename","a")as file:      append 
+     file.write(text)
+os.replace(src,dest)  #for move  dest must be path
+os.remove(path)
+
+
+
+
+
+import shutil
+shutil.copy(src,dest)
