@@ -63,9 +63,9 @@ else:
     print("Lets start the game\n")
 
     while pp < 3 and cp < 3:
-        print("player 1 : ")
+        print("{} : ".format(name1))
         player = input("rock paper scisors  \t").lower()
-        print("player 2 : ")
+        print("{} : ".format(name2))
         comp = input("rock paper scisors  \t").lower()
 
 
