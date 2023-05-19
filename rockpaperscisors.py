@@ -66,6 +66,8 @@ else:
         print("{} : ".format(name1))
         player = input("rock paper scisors  \t").lower()
         print("{} : ".format(name2))
+        
+
         comp = input("rock paper scisors  \t").lower()
 
 
