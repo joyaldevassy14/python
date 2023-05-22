@@ -1,0 +1,50 @@
+#header{
+    position:sticky;
+    width:100%;
+    height:1cm;
+    background-color: rgba(16, 7, 7, 0.968);
+    padding-left: 11cm;
+    padding-right: 10cm;
+    padding-top: 20px;
+    margin: 0px;
+
+}
+body{
+    margin: 0px;
+    width:100%;
+}
+.headicons{
+    color:aliceblue;
+    margin-left: 1cm;
+    font-style: normal;
+    font-size: small;
+    text-decoration: none;
+}
+#tname{
+        background-image: url(titlebg.jpg);
+        width: 100%;
+        height: 800px;
+        background-size: 1300px;
+        margin: 0px;
+        position:relative;
+        top:-21px;
+
+}
+#namedis{
+    text-align: center;
+    position:relative;
+    top:7cm;
+    left:2cm;
+    color:rgb(247, 247, 245);
+    scroll-behavior:smooth;
+
+}
+.soclogo{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    left: 500px;
+    top: 277px;
+}
