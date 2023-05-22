@@ -1,7 +1,7 @@
 #header{
     position:sticky;
     width:100%;
-    height:45px;
+    height:55px;
     background-color: rgba(16, 7, 7, 0.968);
     padding-left: 11cm;
     padding-right: 10cm;
@@ -12,6 +12,7 @@
 body{
     margin: 0px;
     width:100%;
+    background-color: black;
 }
 .headicons{
     color:aliceblue;
@@ -65,7 +66,7 @@ body{
 
 #resume{
     width:100%;
-    height:1100px;
+    height:1150px;
     margin: 0px;
     position: relative;
     top:-35px;
@@ -85,10 +86,14 @@ body{
     position:relative;
     left:280px;
     background-color: white;
-    top:-1130px;
+    top:-1180px;
 
 }
-* {box-sizing: border-box}
+* {
+    box-sizing: border-box;
+    
+    
+}
 
 .container {
   width: 80%;
@@ -105,11 +110,28 @@ body{
 .html {width: 90%; background-color: #04AA6D;}
 .css {width: 70%; background-color: #2196F3;}
 .js{width: 60%; background-color: #f44336;}
-.c{width: 70%; background-color: blue;}
-.j{width: 70%; background-color: #808080;}
+.c{width: 70%; background-color: rgb(57, 57, 167);}
+.j{width: 70%; background-color: #c4d620;}
 .py{width: 85%; background-color: #808080;}
 
 
 .p1{
     font-size: larger;
+}
+#contact{
+    width:100%;
+    height:150px;
+    position:relative;
+    background-color: black;
+    color: white;
+    top:-90px;
+}
+.soclogo1{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+    position: relative;
+    left: 414px;
+    top: 58px;
 }
